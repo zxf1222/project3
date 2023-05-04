@@ -1,1 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=PT+Serif&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(14,31,65);
+    background-color: rgba(185, 204, 243, 0.2);
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* Link styles */
+a,
+a:link {
+  color: rgb(14,31,65);
+}
+
+a:visited {
+  color: rgb(171, 29, 147); /* contrast ratio: 7.45:1 */
+}
+
+a:hover {
+  color: rgb(201,53,68);
+}
+
+a:active {
+  color: rgb(55, 235, 88);
+}
+
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 46px;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 30px;
+    color: #34495e;
+}
+
+/*image*/
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+/* Paragraphs styles */
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Lists styles */
+ul {
+    margin-bottom: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+/* figure and its caption */
+figure {
+    margin: 20px 0;
+}
+
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/*background for each section*/
+#introduction {
+    background-color: rgba(127, 127, 221, 0.2);
+  }
+#geography {
+    background-color: rgba(39, 124, 202, 0.2);
+  }
+#people-and-society {
+    background-color: rgba(185, 204, 243, 0.2);
+  }
+#transportation {
+    background-color: rgba(56, 232, 224, 0.2);
+  }
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+.item {
+  grid-column: span 2;
+  grid-row: 1;
+}
 
